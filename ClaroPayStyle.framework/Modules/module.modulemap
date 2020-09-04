@@ -1,0 +1,11 @@
+framework module ClaroPayStyle {
+  umbrella header "ClaroPayStyle.h"
+
+  export *
+  module * { export * }
+}
+
+module ClaroPayStyle.Swift {
+    header "ClaroPayStyle-Swift.h"
+    requires objc
+}
