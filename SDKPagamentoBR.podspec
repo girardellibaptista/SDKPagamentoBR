@@ -36,7 +36,7 @@ Esta biblioteca tem a finalidade de fornecer todas as funcionallidades de pagame
   #
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.dependency 'ClaroPayStyle'
+  #spec.dependency 'ClaroPayStyle'
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 

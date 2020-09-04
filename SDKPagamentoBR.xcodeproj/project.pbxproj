@@ -12,14 +12,29 @@
 		CFEBAD3C250280F900889CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD3B250280F900889CE0 /* Assets.xcassets */; };
 		CFEBAD5E250290F500889CE0 /* ScanQRModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD5C250290F500889CE0 /* ScanQRModuleController.xib */; };
 		CFEBAD5F250290F500889CE0 /* ScanQRModuleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD5D250290F500889CE0 /* ScanQRModuleController.swift */; };
-		CFEBAD642502929000889CE0 /* ClaroPayStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */; };
 		CFEBAD6D2502C19100889CE0 /* CameraInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD672502C19100889CE0 /* CameraInteractor.swift */; };
 		CFEBAD6E2502C19100889CE0 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD682502C19100889CE0 /* CameraView.xib */; };
 		CFEBAD6F2502C19100889CE0 /* CameraRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD692502C19100889CE0 /* CameraRouter.swift */; };
 		CFEBAD702502C19100889CE0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6A2502C19100889CE0 /* CameraViewController.swift */; };
 		CFEBAD712502C19100889CE0 /* CameraProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6B2502C19100889CE0 /* CameraProtocols.swift */; };
 		CFEBAD722502C19100889CE0 /* CameraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6C2502C19100889CE0 /* CameraPresenter.swift */; };
+		CFEBAD732502D6C100889CE0 /* ClaroPayStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */; };
+		CFEBAD742502D6C100889CE0 /* ClaroPayStyle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFEBAD752502D6C100889CE0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFEBAD742502D6C100889CE0 /* ClaroPayStyle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CFEBAD1325026EAE00889CE0 /* SDKPagamentoBR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKPagamentoBR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEBAD642502929000889CE0 /* ClaroPayStyle.framework in Frameworks */,
+				CFEBAD732502D6C100889CE0 /* ClaroPayStyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +171,7 @@
 				CFEBAD0F25026EAE00889CE0 /* Sources */,
 				CFEBAD1025026EAE00889CE0 /* Frameworks */,
 				CFEBAD1125026EAE00889CE0 /* Resources */,
+				CFEBAD752502D6C100889CE0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
