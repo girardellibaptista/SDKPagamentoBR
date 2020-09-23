@@ -7,17 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF14B8B9251A55FF00283D38 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14B8B8251A55FF00283D38 /* UIView+Extension.swift */; };
+		CF2454DF2503C37600BB64C7 /* PagamentoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2454DE2503C37600BB64C7 /* PagamentoModule.swift */; };
+		CF2454ED2506BFCE00BB64C7 /* QRScannerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2454EA2506BFCE00BB64C7 /* QRScannerViewDelegate.swift */; };
+		CF2454F12506BFF700BB64C7 /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2454F02506BFF700BB64C7 /* QRData.swift */; };
+		CF2454F82506C00D00BB64C7 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2454F32506C00D00BB64C7 /* UIViewController+Alert.swift */; };
+		CF2454FB2506C00D00BB64C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2454F72506C00D00BB64C7 /* Assets.xcassets */; };
+		CF2455152506CE3500BB64C7 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2455132506CE3500BB64C7 /* QRScanViewController.swift */; };
+		CF2455162506CE3500BB64C7 /* QRScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2455142506CE3500BB64C7 /* QRScanViewController.xib */; };
+		CF2455192507885500BB64C7 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2455172507885500BB64C7 /* AlertViewController.swift */; };
+		CF24551A2507885500BB64C7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2455182507885500BB64C7 /* AlertViewController.xib */; };
+		CF24551E25078C5400BB64C7 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24551D25078C5400BB64C7 /* AlertType.swift */; };
+		CF24552B250A517800BB64C7 /* ClaroAlertRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245525250A517800BB64C7 /* ClaroAlertRouter.swift */; };
+		CF24552C250A517800BB64C7 /* ClaroAlertProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245526250A517800BB64C7 /* ClaroAlertProtocols.swift */; };
+		CF24552D250A517800BB64C7 /* ClaroAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245527250A517800BB64C7 /* ClaroAlertPresenter.swift */; };
+		CF24552E250A517800BB64C7 /* AlertInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245529250A517800BB64C7 /* AlertInfo.swift */; };
+		CF24552F250A517800BB64C7 /* ClaroAlertInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24552A250A517800BB64C7 /* ClaroAlertInteractor.swift */; };
+		CF245532250A55FB00BB64C7 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245531250A55FB00BB64C7 /* UIViewController+Extension.swift */; };
+		CF245534250A566700BB64C7 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF245533250A566700BB64C7 /* Lottie.framework */; };
+		CF245535250A566700BB64C7 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF245533250A566700BB64C7 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF245537250A56A400BB64C7 /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF245536250A56A400BB64C7 /* LottieManager.swift */; };
+		CF24553D250BEC8D00BB64C7 /* SendMoneyConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24553B250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.swift */; };
+		CF24553E250BEC8D00BB64C7 /* SendMoneyConfirmationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF24553C250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.xib */; };
+		CF245540250FA12100BB64C7 /* DataTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24553F250FA12000BB64C7 /* DataTransfer.swift */; };
+		CF2456332510C94900BB64C7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2456322510C94800BB64C7 /* String+Extension.swift */; };
+		CF24565B2511605E00BB64C7 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24565A2511605D00BB64C7 /* Balance.swift */; };
+		CFBA3AF4251247080040EACF /* SendMoneyEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA3AF2251247080040EACF /* SendMoneyEditViewController.swift */; };
+		CFBA3AF5251247080040EACF /* SendMoneyEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBA3AF3251247080040EACF /* SendMoneyEditViewController.xib */; };
+		CFBA3AF7251267030040EACF /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA3AF6251267030040EACF /* CurrencyField.swift */; };
+		CFBA3AF92512B3D70040EACF /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA3AF82512B3D60040EACF /* UINavigationController+Extension.swift */; };
+		CFBA3AFD2512F8000040EACF /* SendMoneyReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA3AFB2512F8000040EACF /* SendMoneyReceiptViewController.swift */; };
+		CFBA3AFE2512F8000040EACF /* SendMoneyReceiptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBA3AFC2512F8000040EACF /* SendMoneyReceiptViewController.xib */; };
 		CFEBAD1825026EAE00889CE0 /* SDKPagamentoBR.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEBAD1625026EAE00889CE0 /* SDKPagamentoBR.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFEBAD2F250273F000889CE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD2E250273F000889CE0 /* Localizable.strings */; };
-		CFEBAD3C250280F900889CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD3B250280F900889CE0 /* Assets.xcassets */; };
-		CFEBAD5E250290F500889CE0 /* ScanQRModuleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD5C250290F500889CE0 /* ScanQRModuleController.xib */; };
-		CFEBAD5F250290F500889CE0 /* ScanQRModuleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD5D250290F500889CE0 /* ScanQRModuleController.swift */; };
-		CFEBAD6D2502C19100889CE0 /* CameraInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD672502C19100889CE0 /* CameraInteractor.swift */; };
-		CFEBAD6E2502C19100889CE0 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEBAD682502C19100889CE0 /* CameraView.xib */; };
-		CFEBAD6F2502C19100889CE0 /* CameraRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD692502C19100889CE0 /* CameraRouter.swift */; };
-		CFEBAD702502C19100889CE0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6A2502C19100889CE0 /* CameraViewController.swift */; };
-		CFEBAD712502C19100889CE0 /* CameraProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6B2502C19100889CE0 /* CameraProtocols.swift */; };
-		CFEBAD722502C19100889CE0 /* CameraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBAD6C2502C19100889CE0 /* CameraPresenter.swift */; };
 		CFEBAD732502D6C100889CE0 /* ClaroPayStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */; };
 		CFEBAD742502D6C100889CE0 /* ClaroPayStyle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -30,6 +51,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				CFEBAD742502D6C100889CE0 /* ClaroPayStyle.framework in Embed Frameworks */,
+				CF245535250A566700BB64C7 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,20 +59,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF14B8B8251A55FF00283D38 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CF2454DE2503C37600BB64C7 /* PagamentoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagamentoModule.swift; sourceTree = "<group>"; };
+		CF2454EA2506BFCE00BB64C7 /* QRScannerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewDelegate.swift; sourceTree = "<group>"; };
+		CF2454F02506BFF700BB64C7 /* QRData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		CF2454F32506C00D00BB64C7 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		CF2454F72506C00D00BB64C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2455132506CE3500BB64C7 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		CF2455142506CE3500BB64C7 /* QRScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRScanViewController.xib; sourceTree = "<group>"; };
+		CF2455172507885500BB64C7 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		CF2455182507885500BB64C7 /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		CF24551D25078C5400BB64C7 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		CF245525250A517800BB64C7 /* ClaroAlertRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaroAlertRouter.swift; sourceTree = "<group>"; };
+		CF245526250A517800BB64C7 /* ClaroAlertProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaroAlertProtocols.swift; sourceTree = "<group>"; };
+		CF245527250A517800BB64C7 /* ClaroAlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaroAlertPresenter.swift; sourceTree = "<group>"; };
+		CF245529250A517800BB64C7 /* AlertInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertInfo.swift; sourceTree = "<group>"; };
+		CF24552A250A517800BB64C7 /* ClaroAlertInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaroAlertInteractor.swift; sourceTree = "<group>"; };
+		CF245531250A55FB00BB64C7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		CF245533250A566700BB64C7 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lottie.framework; sourceTree = "<group>"; };
+		CF245536250A56A400BB64C7 /* LottieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
+		CF24553B250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyConfirmationViewController.swift; sourceTree = "<group>"; };
+		CF24553C250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyConfirmationViewController.xib; sourceTree = "<group>"; };
+		CF24553F250FA12000BB64C7 /* DataTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransfer.swift; sourceTree = "<group>"; };
+		CF2456322510C94800BB64C7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CF24565A2511605D00BB64C7 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		CFBA3AF2251247080040EACF /* SendMoneyEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyEditViewController.swift; sourceTree = "<group>"; };
+		CFBA3AF3251247080040EACF /* SendMoneyEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyEditViewController.xib; sourceTree = "<group>"; };
+		CFBA3AF6251267030040EACF /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
+		CFBA3AF82512B3D60040EACF /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		CFBA3AFB2512F8000040EACF /* SendMoneyReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyReceiptViewController.swift; sourceTree = "<group>"; };
+		CFBA3AFC2512F8000040EACF /* SendMoneyReceiptViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendMoneyReceiptViewController.xib; sourceTree = "<group>"; };
 		CFEBAD1325026EAE00889CE0 /* SDKPagamentoBR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKPagamentoBR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEBAD1625026EAE00889CE0 /* SDKPagamentoBR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKPagamentoBR.h; sourceTree = "<group>"; };
 		CFEBAD1725026EAE00889CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFEBAD2E250273F000889CE0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		CFEBAD3B250280F900889CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFEBAD5C250290F500889CE0 /* ScanQRModuleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanQRModuleController.xib; sourceTree = "<group>"; };
-		CFEBAD5D250290F500889CE0 /* ScanQRModuleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRModuleController.swift; sourceTree = "<group>"; };
 		CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ClaroPayStyle.framework; sourceTree = "<group>"; };
-		CFEBAD672502C19100889CE0 /* CameraInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraInteractor.swift; sourceTree = "<group>"; };
-		CFEBAD682502C19100889CE0 /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
-		CFEBAD692502C19100889CE0 /* CameraRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRouter.swift; sourceTree = "<group>"; };
-		CFEBAD6A2502C19100889CE0 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		CFEBAD6B2502C19100889CE0 /* CameraProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraProtocols.swift; sourceTree = "<group>"; };
-		CFEBAD6C2502C19100889CE0 /* CameraPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +101,131 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFEBAD732502D6C100889CE0 /* ClaroPayStyle.framework in Frameworks */,
+				CF245534250A566700BB64C7 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF2454DD2503C34500BB64C7 /* PagamentoBrModule */ = {
+			isa = PBXGroup;
+			children = (
+				CF2454DE2503C37600BB64C7 /* PagamentoModule.swift */,
+			);
+			path = PagamentoBrModule;
+			sourceTree = "<group>";
+		};
+		CF2454E72506BFCE00BB64C7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CF2454EA2506BFCE00BB64C7 /* QRScannerViewDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		CF2454EF2506BFF700BB64C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF2454F02506BFF700BB64C7 /* QRData.swift */,
+				CF24553F250FA12000BB64C7 /* DataTransfer.swift */,
+				CF24565A2511605D00BB64C7 /* Balance.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF2454F22506C00D00BB64C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF245536250A56A400BB64C7 /* LottieManager.swift */,
+				CF2454F32506C00D00BB64C7 /* UIViewController+Alert.swift */,
+				CF2456322510C94800BB64C7 /* String+Extension.swift */,
+				CFBA3AF6251267030040EACF /* CurrencyField.swift */,
+				CFBA3AF82512B3D60040EACF /* UINavigationController+Extension.swift */,
+				CF14B8B8251A55FF00283D38 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF2454F42506C00D00BB64C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA3AFA2512F7DE0040EACF /* SendMoneyReceipt */,
+				CFBA3AF1251246910040EACF /* SendMoneyEdit */,
+				CF24553A250BE98500BB64C7 /* SendMoneyConfirmation */,
+				CF24551C25078C2400BB64C7 /* QRScan */,
+				CF24551B25078C1300BB64C7 /* Alert */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF24551B25078C1300BB64C7 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CF24552A250A517800BB64C7 /* ClaroAlertInteractor.swift */,
+				CF245527250A517800BB64C7 /* ClaroAlertPresenter.swift */,
+				CF245526250A517800BB64C7 /* ClaroAlertProtocols.swift */,
+				CF245525250A517800BB64C7 /* ClaroAlertRouter.swift */,
+				CF245528250A517800BB64C7 /* Model */,
+				CF24551D25078C5400BB64C7 /* AlertType.swift */,
+				CF2455172507885500BB64C7 /* AlertViewController.swift */,
+				CF2455182507885500BB64C7 /* AlertViewController.xib */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CF24551C25078C2400BB64C7 /* QRScan */ = {
+			isa = PBXGroup;
+			children = (
+				CF2455132506CE3500BB64C7 /* QRScanViewController.swift */,
+				CF2455142506CE3500BB64C7 /* QRScanViewController.xib */,
+			);
+			path = QRScan;
+			sourceTree = "<group>";
+		};
+		CF245528250A517800BB64C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF245529250A517800BB64C7 /* AlertInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF245530250A55D800BB64C7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF245531250A55FB00BB64C7 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CF24553A250BE98500BB64C7 /* SendMoneyConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				CF24553B250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.swift */,
+				CF24553C250BEC8C00BB64C7 /* SendMoneyConfirmationViewController.xib */,
+			);
+			path = SendMoneyConfirmation;
+			sourceTree = "<group>";
+		};
+		CFBA3AF1251246910040EACF /* SendMoneyEdit */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA3AF2251247080040EACF /* SendMoneyEditViewController.swift */,
+				CFBA3AF3251247080040EACF /* SendMoneyEditViewController.xib */,
+			);
+			path = SendMoneyEdit;
+			sourceTree = "<group>";
+		};
+		CFBA3AFA2512F7DE0040EACF /* SendMoneyReceipt */ = {
+			isa = PBXGroup;
+			children = (
+				CFBA3AFB2512F8000040EACF /* SendMoneyReceiptViewController.swift */,
+				CFBA3AFC2512F8000040EACF /* SendMoneyReceiptViewController.xib */,
+			);
+			path = SendMoneyReceipt;
+			sourceTree = "<group>";
+		};
 		CFEBAD0925026EAE00889CE0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,68 +246,26 @@
 		CFEBAD1525026EAE00889CE0 /* SDKPagamentoBR */ = {
 			isa = PBXGroup;
 			children = (
-				CFEBAD662502C19100889CE0 /* CameraModule */,
-				CFEBAD352502805800889CE0 /* Resources */,
-				CFEBAD2D250273D200889CE0 /* Targets */,
-				CFEBAD1E25026EC600889CE0 /* ScanQr */,
+				CF245530250A55D800BB64C7 /* Extension */,
+				CF2454F72506C00D00BB64C7 /* Assets.xcassets */,
+				CF2454F42506C00D00BB64C7 /* Controller */,
+				CF2454F22506C00D00BB64C7 /* Extensions */,
+				CF2454EF2506BFF700BB64C7 /* Model */,
+				CF2454E72506BFCE00BB64C7 /* Delegate */,
+				CF2454DD2503C34500BB64C7 /* PagamentoBrModule */,
 				CFEBAD1625026EAE00889CE0 /* SDKPagamentoBR.h */,
 				CFEBAD1725026EAE00889CE0 /* Info.plist */,
 			);
 			path = SDKPagamentoBR;
 			sourceTree = "<group>";
 		};
-		CFEBAD1E25026EC600889CE0 /* ScanQr */ = {
-			isa = PBXGroup;
-			children = (
-				CFEBAD5D250290F500889CE0 /* ScanQRModuleController.swift */,
-				CFEBAD5C250290F500889CE0 /* ScanQRModuleController.xib */,
-			);
-			path = ScanQr;
-			sourceTree = "<group>";
-		};
-		CFEBAD2D250273D200889CE0 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				CFEBAD2E250273F000889CE0 /* Localizable.strings */,
-			);
-			path = Targets;
-			sourceTree = "<group>";
-		};
 		CFEBAD302502785100889CE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF245533250A566700BB64C7 /* Lottie.framework */,
 				CFEBAD632502929000889CE0 /* ClaroPayStyle.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CFEBAD352502805800889CE0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CFEBAD362502806100889CE0 /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		CFEBAD362502806100889CE0 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				CFEBAD3B250280F900889CE0 /* Assets.xcassets */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		CFEBAD662502C19100889CE0 /* CameraModule */ = {
-			isa = PBXGroup;
-			children = (
-				CFEBAD672502C19100889CE0 /* CameraInteractor.swift */,
-				CFEBAD682502C19100889CE0 /* CameraView.xib */,
-				CFEBAD692502C19100889CE0 /* CameraRouter.swift */,
-				CFEBAD6A2502C19100889CE0 /* CameraViewController.swift */,
-				CFEBAD6B2502C19100889CE0 /* CameraProtocols.swift */,
-				CFEBAD6C2502C19100889CE0 /* CameraPresenter.swift */,
-			);
-			path = CameraModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +322,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CFEBAD0925026EAE00889CE0;
 			productRefGroup = CFEBAD1425026EAE00889CE0 /* Products */;
@@ -220,10 +338,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEBAD5E250290F500889CE0 /* ScanQRModuleController.xib in Resources */,
-				CFEBAD3C250280F900889CE0 /* Assets.xcassets in Resources */,
-				CFEBAD2F250273F000889CE0 /* Localizable.strings in Resources */,
-				CFEBAD6E2502C19100889CE0 /* CameraView.xib in Resources */,
+				CF2455162506CE3500BB64C7 /* QRScanViewController.xib in Resources */,
+				CF2454FB2506C00D00BB64C7 /* Assets.xcassets in Resources */,
+				CFBA3AFE2512F8000040EACF /* SendMoneyReceiptViewController.xib in Resources */,
+				CFBA3AF5251247080040EACF /* SendMoneyEditViewController.xib in Resources */,
+				CF24553E250BEC8D00BB64C7 /* SendMoneyConfirmationViewController.xib in Resources */,
+				CF24551A2507885500BB64C7 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,12 +354,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFEBAD5F250290F500889CE0 /* ScanQRModuleController.swift in Sources */,
-				CFEBAD702502C19100889CE0 /* CameraViewController.swift in Sources */,
-				CFEBAD6D2502C19100889CE0 /* CameraInteractor.swift in Sources */,
-				CFEBAD722502C19100889CE0 /* CameraPresenter.swift in Sources */,
-				CFEBAD712502C19100889CE0 /* CameraProtocols.swift in Sources */,
-				CFEBAD6F2502C19100889CE0 /* CameraRouter.swift in Sources */,
+				CF2454F82506C00D00BB64C7 /* UIViewController+Alert.swift in Sources */,
+				CF245532250A55FB00BB64C7 /* UIViewController+Extension.swift in Sources */,
+				CF2455192507885500BB64C7 /* AlertViewController.swift in Sources */,
+				CF2454F12506BFF700BB64C7 /* QRData.swift in Sources */,
+				CF24565B2511605E00BB64C7 /* Balance.swift in Sources */,
+				CF24552C250A517800BB64C7 /* ClaroAlertProtocols.swift in Sources */,
+				CFBA3AF4251247080040EACF /* SendMoneyEditViewController.swift in Sources */,
+				CF24552B250A517800BB64C7 /* ClaroAlertRouter.swift in Sources */,
+				CF24552F250A517800BB64C7 /* ClaroAlertInteractor.swift in Sources */,
+				CF24552E250A517800BB64C7 /* AlertInfo.swift in Sources */,
+				CF14B8B9251A55FF00283D38 /* UIView+Extension.swift in Sources */,
+				CF2456332510C94900BB64C7 /* String+Extension.swift in Sources */,
+				CFBA3AF92512B3D70040EACF /* UINavigationController+Extension.swift in Sources */,
+				CFBA3AFD2512F8000040EACF /* SendMoneyReceiptViewController.swift in Sources */,
+				CF24552D250A517800BB64C7 /* ClaroAlertPresenter.swift in Sources */,
+				CF24553D250BEC8D00BB64C7 /* SendMoneyConfirmationViewController.swift in Sources */,
+				CFBA3AF7251267030040EACF /* CurrencyField.swift in Sources */,
+				CF2454ED2506BFCE00BB64C7 /* QRScannerViewDelegate.swift in Sources */,
+				CF24551E25078C5400BB64C7 /* AlertType.swift in Sources */,
+				CF245540250FA12100BB64C7 /* DataTransfer.swift in Sources */,
+				CF2455152506CE3500BB64C7 /* QRScanViewController.swift in Sources */,
+				CF245537250A56A400BB64C7 /* LottieManager.swift in Sources */,
+				CF2454DF2503C37600BB64C7 /* PagamentoModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
